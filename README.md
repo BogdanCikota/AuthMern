@@ -4,7 +4,7 @@ Site published at: https://authmernapp.herokuapp.com/
 
 MongoDB, Express, ReactJs, NodeJs
 
-- To login as admin: 
+To login as admin: 
   - email: test@test.com
   - password: test123
 
