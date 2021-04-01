@@ -1,0 +1,87 @@
+.wrapper {
+    margin-top: 2rem;
+}
+
+.home {
+    display: grid;
+    grid-gap: 1rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    max-width: 12rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    /* border: 3px solid gray;
+    padding: 2rem;
+    border-radius: .5rem; */
+}
+
+.home img {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    width: 100%;
+}
+
+.sign-up, 
+.login,
+.edit-user {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.sign-up form,
+ .login form,
+ .edit-user form {
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+.sign-up input,
+ .login input,
+ .edit-user input {
+    width: 100%;
+}
+
+.sign-up input[type="password"],
+ .login input[type="password"],
+ .edit-user input[type="password"]
+  {
+    margin-top: 1rem;
+}
+
+.sign-up form button, 
+.login form button,
+.edit-user form button,
+.edit-user form,
+.googleAuth,
+.show-all-users,
+.log-out-btn,
+.sign-up form,
+.login form  {
+    margin-top: 2rem;
+}
+
+
+.show-all-users .btn {
+   padding: .3rem;
+   display: block;
+   max-width: min-content;
+}
+
+.delete-my-profile {
+    margin-top: 1rem;
+}
+
+.delete-user {
+    padding-left: 0 !important;
+    width: 15%;
+}
+
+table {
+    max-width: 50rem;
+}
+
+.googleIcon {
+    width: 1.5rem;
+    margin-right: 1rem;
+}
