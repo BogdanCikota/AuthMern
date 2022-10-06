@@ -15,12 +15,12 @@ const GlobalContextProvider = (props) => {
     const [editUsername, setEditUsername] = useState('');
     const [editPassword, setEditPassword] = useState('');
 
-    // const url = 'http://localhost:4000';
-    const url = '';
+    const url = 'http://localhost:4000';
+    // const url = '';
 
-    // const windowUrl = 'http://localhost:3000';
+    const windowUrl = 'http://localhost:3000';
     // const windowUrl = 'http://localhost:5000';
-    const windowUrl = 'https://authmernapp.herokuapp.com';
+    // const windowUrl = 'https://authmernapp.herokuapp.com';
     
     useEffect(() => {
         axios({
